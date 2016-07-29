@@ -1,0 +1,23 @@
+/*style sheet*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: #dfdfdf;
+}
+
+.wrapper {
+    background-color: #fff;
+    margin: 100px auto 0 auto;
+    padding: 25px;
+    width: 500px;
+    /*border: 1px solid #000;*/
+    border-top: 15px solid #ccf;
+
+    -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+    -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+    box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+}
