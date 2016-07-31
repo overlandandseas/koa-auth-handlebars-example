@@ -1,23 +1,28 @@
 /*style sheet*/
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100);
 
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     background-color: #dfdfdf;
 }
-
 .wrapper {
     background-color: #fff;
-    margin: 100px auto 0 auto;
+
     padding: 25px;
-    width: 500px;
+    width: 100%;
     /*border: 1px solid #000;*/
     border-top: 15px solid #ccf;
 
-    -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
-    -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
-    box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+}
+
+@media all and (min-width: 504px) {
+    .wrapper {
+        margin: 100px auto 0 auto;
+        width: calc(100% - 200px);
+        -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+        -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+        box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
+    }
 }

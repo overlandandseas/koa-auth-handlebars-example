@@ -1,4 +1,5 @@
 //RUN THE TRAP
+'use strict'
 const server = require('./lib/server')
 
 
