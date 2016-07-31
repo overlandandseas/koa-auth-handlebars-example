@@ -12,7 +12,7 @@
     "start": "node index"
   },
   "author": "Lucas Overland",
-  "license": "WTF",
+  "license": "WTFPL",
   "dependencies": {
     "co-body": "^4.2.0",
     "co-views": "^2.1.0",
