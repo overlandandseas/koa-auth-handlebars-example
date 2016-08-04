@@ -26,3 +26,24 @@ body {
         box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
     }
 }
+
+
+.submit-button {
+    margin-top: 25px;
+    text-align: right;
+    width:100%;
+    /*padding: 10px;*/
+}
+
+.submit-button  button{
+    background-color: #aaa;
+    color: #fff;
+    padding: 15px;
+    border: none;
+}
+
+.submit-button button:hover {
+    background: #ccf;
+    text-decoration: underline;
+    cursor: pointer;
+}
