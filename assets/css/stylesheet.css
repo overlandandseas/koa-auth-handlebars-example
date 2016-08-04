@@ -13,13 +13,14 @@ body {
     padding: 25px;
     width: 100%;
     /*border: 1px solid #000;*/
-    border-top: 15px solid #ccf;
-
+    
+    display: inline-block;
 }
+
 
 @media all and (min-width: 504px) {
     .wrapper {
-        margin: 100px auto 0 auto;
+        margin: 100px 75px;
         width: calc(100% - 200px);
         -webkit-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
         -moz-box-shadow: 9px 9px 5px -4px rgba(0,0,0,0.29);
@@ -30,19 +31,41 @@ body {
 
 .submit-button {
     margin-top: 25px;
-    text-align: right;
-    width:100%;
+    /*text-align: right;*/
+    width:50%;
+    float: left;
+    background: #dfdfdf;
     /*padding: 10px;*/
 }
+.half-box {
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+}
 
-.submit-button  button{
+.half-box  button{
     background-color: #aaa;
     color: #fff;
     padding: 15px;
     border: none;
 }
 
-.submit-button button:hover {
+.half-box button:hover {
+    background: #ccf;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.half-box a{
+    background-color: #aaa;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.half-box a:hover {
     background: #ccf;
     text-decoration: underline;
     cursor: pointer;

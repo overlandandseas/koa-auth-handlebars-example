@@ -9,8 +9,17 @@
 </head>
 
 <body>
-<div class="wrapper">
+{{#if loggedIn}}
+<div class="wrapper" style="border-top: 15px solid #cfc;">
+{{else}}
+<div class="wrapper" style="border-top: 15px solid #ccf;">
+{{/if}}
 {{{body}}}
+{{#if loggedIn}}
+<div class="half-box">
+<a href="/logout">Logout</a>
+</div>
+{{/if}}
 </div>
 </body>
 </html>
