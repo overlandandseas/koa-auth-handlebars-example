@@ -1,7 +1,7 @@
 {
   "name": "granite-factory",
   "version": "1.0.0",
-  "description": "The Website for the Granite Factory (granitefactory.net)",
+  "description": "Kao handlebars with basic auth site. also has static files serving thing, pretty neat",
   "repository": {
     "type": "git",
     "url": "https://github.com/overlandandseas/granite-factory.git"
